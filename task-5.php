@@ -32,12 +32,15 @@ $opel = array(
     "years" => "2004"
 );
 
-$cars = array_merge_recursive($bmw, $toyota, $opel);
+$cars = ['bmv' => $bmw, 'toyota' => $toyota, 'opel' => $opel];
 
 
 
-for ($i = 0; $i< 3; $i++) {
+foreach ($cars as $key => $value) {
     echo '<div style="border: 1px solid; padding: 20px; margin: 10px; float: left;">';
-    echo $cars[model][$i] . '<br>' . $cars[speed][$i] . ' ' . $cars[doors][$i] . ' ' . $cars[years][$i] . '<br>';
+    echo $key . '<br>';
+    foreach ($value as $insetValue) {
+        echo $insetValue  . ' ';
+    }
     echo '</div>';
 }
