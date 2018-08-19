@@ -11,26 +11,26 @@
     4. Объедините три массива в один многомерный массив
 */
 
-$bmw = array(
+$bmw = [
     "model" => "X5",
     "speed" => "120",
     "doors" => "5",
     "years" => "2015"
-);
+];
 
-$toyota = array(
+$toyota = [
     "model" => "Corola",
     "speed" => "220",
     "doors" => "4",
     "years" => "2011"
-);
+];
 
-$opel = array(
+$opel = [
     "model" => "Vestra",
     "speed" => "180",
     "doors" => "4",
     "years" => "2004"
-);
+];
 
 $cars = ['bmv' => $bmw, 'toyota' => $toyota, 'opel' => $opel];
 
