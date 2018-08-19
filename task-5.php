@@ -19,20 +19,24 @@ $bmw = [
 ];
 
 $toyota = [
-    "model" => "Corola",
+    "model" => "Prado",
     "speed" => "220",
     "doors" => "4",
     "years" => "2011"
 ];
 
 $opel = [
-    "model" => "Vestra",
+    "model" => "Astra",
     "speed" => "180",
     "doors" => "4",
     "years" => "2004"
 ];
 
-$cars = ['bmv' => $bmw, 'toyota' => $toyota, 'opel' => $opel];
+$cars = [
+    "BMW" => $bmw,
+    "TOYOTA" => $toyota,
+    "OPEL" => $opel
+];
 
 
 
